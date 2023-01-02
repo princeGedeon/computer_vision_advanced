@@ -1,0 +1,13 @@
+import cv2
+import mediapipe as mp
+import time
+
+cap=cv2.VideoCapture(0)
+print("hello")
+while True:
+    print("hello")
+    sucess,img=cap.read()
+
+
+    cv2.imshow('img',img)
+    cv2.waitKey(1)
